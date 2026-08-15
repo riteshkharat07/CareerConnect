@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerConnect</title>
+</head>
+<body>
+    <header>
+        <h1>CareerConnect</h1>
+
+        <nav>
+            <a href="#Home">Home</a>|
+            <a href="#jobs">jobs</a>|
+            <a href="#Apply">Apply</a>|
+            <a href="#Contact">Contact</a>
+        </nav>
+        <hr>
+
+    </header>
+
+    <main>
+        
+        <section id="Home">
+            <img src="photo/xxx.png" width="500"alt="career image">
+            <h2>Build your Career with CareerConnect</h2>
+
+            <p>Find the right job opportunity and take the next
+                 step towords your career.</p>
+
+            <a href="jobs.html#jobs">Explore Jobs</a>
+            <a href="#Apply">Apply Now</a> 
+        </section>
+
+    <hr>
+        <section id="jobs">
+            <h2>Featured Jobs</h2>
+            <fieldset>
+          
+            <article class="card">
+                <h3>Java Backend Developer</h3>
+                <p>Company: TechSolutions</p>
+                <p>Location: Pune, Maharashtra</p>
+                <p>Experience 0-2years</p>
+                <a href="#">View Job</a>
+            </article>
+            <hr>
+           <article class="card">
+                <h3>Frontend Developer</h3>
+                <p>Company: WebCaft</p>
+                <p>Location: Mumbai, Maharashtra</p>
+                <p>Experience: 0-2years</p>
+                <a href="#">View Job</a>
+           </article>
+           <hr>
+           <article class="card">
+                <h3>Software Engineer</h3>
+                <p>Company: CodeWorks</p>
+                <p>Location: Bangalore, karnataka</p>
+                <p>Experience: 0-2years</p>
+                <a href="#">View Job</a>
+           </article>
+           </fieldset>
+        </section>
+        
+        <section>
+            <h2>Required Skills</h2>
+
+
+            <ul>
+                <li>Java</li>
+                <li>SpringBoot</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
+                <li>SQL</li>
+            </ul>
+        </section>
+        <section>
+            <h2>
+                How CareerConnect Works
+            </h2>
+            <ol>
+                <li>Create your profile</li>
+                <li>Search for suitable jobs</li>
+                <li>Apply for the job</li>
+                <li>Attend the interview</li>
+                <li>Start your career</li>
+            </ol>
+        </section>
+        <section>
+            <h2>Job Requirements</h2>
+
+            <table border="3">
+                <tr>
+                    <th>Job role</th>
+                    <th>Skills</th>
+                    <th>Experience</th>
+                    <th>Work Type</th>
+                </tr>
+                <tr>
+                    <td>Java Backend Developer</td>
+                    <td>Java, Spring boot, SQL</td>
+                    <td>0-2years</td>
+                    <td>Full Time</td>
+                </tr>
+                <tr>
+                    <td>Frontend Developer</td>
+                    <td>HTML, CSS, Java script</td>
+                    <td>1-3years</td>
+                    <td>Full Time</td>
+                </tr>
+                <tr>
+                    <td>Software Developer</td>
+                    <td>Java, SQL, Git</td>
+                    <td>1-3years</td>
+                    <td>Hybrid</td>
+                </tr>
+            </table>
+        </section >
+       
+        <br><br>
+        <fieldset>
+           
+        <section id="Apply">
+        <h3>Apply for a Job</h3>
+        <section>
+            <lable>Full Name:</lable>
+            <br><br>
+            <input type="text" placeholder="Enter your full name" required>
+            <br><br>
+
+            <lable>Email:</lable>
+            <br><br>
+            <input type="email" placeholder="Enter email" required>
+            <br><br>
+
+            <lable>Mobile no:</lable >
+            <br><br>
+            <input type="number" placeholder="Enter Mobile no." required>
+            <br><br>
+
+            <lable>Select Job</lable>
+            <br><br>
+            <select>
+                <option value="">--Select a Job--</option>
+                <option value="">Java Backend Developer</option>
+                <option value="">Frontend Developer</option>
+                <option value="">Software Developer</option>
+            </select>
+            <br><br>
+            <lable >Education</lable>
+            <br><br>
+            <select>
+                <option value="">--Select--</option>
+                <option value="">BE</option>
+                <option value="">B.Tech</option>
+            </select>
+            <br><br>
+             <fieldset>
+            <lable>Preffered work type</lable>
+            <br>
+            <input type="radio" name="skill">
+            <label>Full time</label>
+            <br>
+            <input type="radio" name="skill">
+            <label>Hybrid</label>
+            <br>
+            <input type="radio" name="skill">
+            <label>Remote</label>
+            </fieldset>
+            <br><br>
+            <fieldset>
+            <label>Preferred Technologies</label>
+            <br>
+            <input type="checkbox" name="grup">
+            <label>Java</label>
+            <br>
+            <input type="checkbox" name="grup">
+            <label>Python</label>
+            <br>
+            <input type="checkbox" name="grup">
+            <label>SQL</label>
+            <br>
+            <input type="checkbox" name="grup">
+            <label>Springboot</label>
+            <br><br>
+            </fieldset>
+
+            <lable>Skills</lable>
+            <br><br>
+            <textarea rows="4" cols="30"></textarea>
+            <br><br>
+
+            <lable>Upload Resume</lable>
+            <br><br>
+            <input type="file" placeholder="Upload Resume">
+            <br><br>
+
+            <input type="submit" value="Submit Application">
+        </section>
+        </fieldset>
+        </form>
+        
+        <section id="Contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or need help finding a job? 
+            Get in touch with us.</p>
+        
+         <label>Email:</label>
+         <a href="mailto:careers@careerconnect.com">
+            careers@careerconnect.com</a>
+        <br><br>
+        <label>Phone no.</label>
+        <a href="0000000000">000000000</a>
+        <br>
+        <a href="contact.html">More details for contact</a>
+        </section>
+
+        <footer>
+            <hr>
+            <p>&copy; 2026 CareerConnect.
+            </p>
+
+            <a href="#">Linkedin</a>
+            <a href="#">GitHub</a>
+        </footer>
+
+        <style>
+            .card{
+                color: red;
+            }
+        </style>
+
+
+
+        
+        
+
+    </main>
+    
+
+    
+</body>
+</html>

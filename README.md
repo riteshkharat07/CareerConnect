@@ -31,12 +31,11 @@ A multi-page job portal website built using HTML5.
 
 ## Project Structure
 
-CareerConnect/
-index.html
-jobs.html
-job-details.html
-contact.html
-README.md
-│
-images/
-career-banner.png
+CareerConnect
+-index.html
+-jobs.html
+-job-details.html
+-contact.html
+
+images
+-career-banner.png

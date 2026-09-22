@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CareerConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+   
 </head>
 <body>
-    <header>
+    <header class="navbar">
         <h1>CareerConnect</h1>
+        <br><br>
 
         <nav>
-            <a href="#Home">Home</a>|
-            <a href="#jobs">jobs</a>|
-            <a href="#Apply">Apply</a>|
-            <a href="#Contact">Contact</a>
+            <a href="#Home">HOME</a>|
+            <a href="#jobs">JOBS</a>|
+            <a href="#Apply">APPLY</a>|
+            <a href="#Contact">CONTACT</a>
     
         </nav>
         <hr>
@@ -22,7 +25,7 @@
 
     <main>
         
-        <section id="Home">
+        <section id="Home" class="hero">
             <img src="photo/xxx.png" width="500"alt="career image">
             <h2>Build your Career with CareerConnect</h2>
 
@@ -33,10 +36,9 @@
             <a href="#Apply">Apply Now</a> 
         </section>
 
-    <hr>
         <section id="jobs">
             <h2>Featured Jobs</h2>
-            <fieldset>
+            <fieldset class="job-container">
           
             <article class="card">
                 <h3>Java Backend Developer</h3>
@@ -45,7 +47,7 @@
                 <p>Experience 0-2years</p>
                 <a href="job-details.html#Backend-developer">View Job</a>
             </article>
-            <hr>
+
            <article class="card">
                 <h3>Frontend Developer</h3>
                 <p>Company: WebCaft</p>
@@ -53,7 +55,7 @@
                 <p>Experience: 0-2years</p>
                 <a href="job-details.html#Frontend-developer">View Job</a>
            </article>
-           <hr>
+
            <article class="card">
                 <h3>Software Engineer</h3>
                 <p>Company: CodeWorks</p>
@@ -61,23 +63,22 @@
                 <p>Experience: 0-2years</p>
                 <a href="job-details.html#Software-developer">View Job</a>
            </article>
-           </fieldset>
+            </fieldset>
         </section>
         
-        <section>
+        <section class="info-section">
             <h2>Required Skills</h2>
-
 
             <ul>
                 <li>Java</li>
                 <li>SpringBoot</li>
                 <li>HTML</li>
                 <li>CSS</li>
-                <li>Java Script</li>
+                <li>JavaScript</li>
                 <li>SQL</li>
             </ul>
         </section>
-        <section>
+        <section class="info-section">
             <h2>
                 How CareerConnect Works
             </h2>
@@ -89,10 +90,10 @@
                 <li>Start your career</li>
             </ol>
         </section>
-        <section>
+        <section class="job-requirements">
             <h2>Job Requirements</h2>
 
-            <table border="3">
+            <table class="job-table">
                 <tr>
                     <th>Job role</th>
                     <th>Skills</th>
@@ -123,25 +124,25 @@
         <br><br>
         <fieldset>
            
-        <section id="Apply">
+        <section id="Apply" class="apply-section">
         <h3>Apply for a Job</h3>
         <section>
-            <lable>Full Name:</lable>
+            <label>Full Name:</label>
             <br><br>
             <input type="text" placeholder="Enter your full name" required>
             <br><br>
 
-            <lable>Email:</lable>
+            <label>Email:</label>
             <br><br>
             <input type="email" placeholder="Enter email" required>
             <br><br>
 
-            <lable>Mobile no:</lable >
+            <label>Mobile no:</label >
             <br><br>
             <input type="number" placeholder="Enter Mobile no." required>
             <br><br>
 
-            <lable>Select Job</lable>
+            <label>Select Job</label>
             <br><br>
             <select>
                 <option value="">--Select a Job--</option>
@@ -150,7 +151,7 @@
                 <option value="">Software Developer</option>
             </select>
             <br><br>
-            <lable >Education</lable>
+            <label >Education</label>
             <br><br>
             <select>
                 <option value="">--Select--</option>
@@ -159,7 +160,7 @@
             </select>
             <br><br>
              <fieldset>
-            <lable>Preffered work type</lable>
+            <label>Preffered work type</label>
             <br>
             <input type="radio" name="skill">
             <label>Full time</label>
@@ -203,7 +204,7 @@
         </fieldset>
         </form>
         
-        <section id="Contact">
+        <section id="Contact" class="contact-section">
         <h2>Contact Us</h2>
         <p>Have a question or need help finding a job? 
             Get in touch with us.</p>
@@ -218,7 +219,7 @@
         <a href="contact.html">More details for contact</a>
         </section>
 
-        <footer>
+        <footer  class="footer">
             <hr>
             <p>&copy; 2026 CareerConnect.
             </p>

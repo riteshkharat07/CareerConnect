@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CareerConnect</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
    
 </head>
 <body>
@@ -123,23 +124,25 @@
        
         <br><br>
         <fieldset>
-           
+
+        <form id="applyForm" novalidate>
+     
         <section id="Apply" class="apply-section">
         <h3>Apply for a Job</h3>
         <section>
             <label>Full Name:</label>
             <br><br>
-            <input type="text" placeholder="Enter your full name" required>
+            <input type="text" id="name" placeholder="Enter your full name" required>
             <br><br>
 
             <label>Email:</label>
             <br><br>
-            <input type="email" placeholder="Enter email" required>
+            <input type="email" id="email" placeholder="Enter email" required>
             <br><br>
 
             <label>Mobile no:</label >
             <br><br>
-            <input type="number" placeholder="Enter Mobile no." required>
+            <input type="number" id="phone" placeholder="Enter Mobile no." required>
             <br><br>
 
             <label>Select Job</label>
@@ -191,18 +194,19 @@
 
             <lable>Skills</lable>
             <br><br>
-            <textarea rows="4" cols="30"></textarea>
+            <textarea id="skills" rows="4" cols="30"></textarea>
             <br><br>
 
             <lable>Upload Resume</lable>
             <br><br>
             <input type="file" placeholder="Upload Resume">
             <br><br>
+            <p id="message"></p>
 
             <input type="submit" value="Submit Application">
         </section>
         </fieldset>
-        </form>
+    </form>
         
         <section id="Contact" class="contact-section">
         <h2>Contact Us</h2>
@@ -219,6 +223,12 @@
         <a href="contact.html">More details for contact</a>
         </section>
 
+        <section class="api-section">
+    <h2>Featured User</h2>
+    <p id="userName">Loading user...</p>
+    <p id="userEmail"></p>
+</section>
+
         <footer  class="footer">
             <hr>
             <p>&copy; 2026 CareerConnect.
@@ -233,11 +243,6 @@
                 color: red;
             }
         </style>
-
-
-
-        
-        
 
     </main>
     
